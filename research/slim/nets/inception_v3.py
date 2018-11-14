@@ -19,8 +19,10 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-import models.research.slim.nets as nets
-from nets import inception_utils
+# import models.research.slim.nets as nets
+# from nets import inception_utils
+
+from models.research.slim.nets import inception_utils
 
 slim = tf.contrib.slim
 trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)
