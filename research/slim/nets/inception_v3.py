@@ -19,7 +19,7 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-
+import models.research.slim.nets as nets
 from nets import inception_utils
 
 slim = tf.contrib.slim
